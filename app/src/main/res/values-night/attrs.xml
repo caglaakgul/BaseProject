@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ProgressView">
+        <attr name="ProgressText" format="reference" />
+        <attr name="ProgressIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="CounterView">
+        <attr name="counterTitle" format="reference" />
+        <attr name="counterSubTitle" format="reference" />
+        <attr name="counterValue" format="integer" />
+        <attr name="maximumValue" format="integer" />
+        <attr name="minimumValue" format="integer" />
+        <attr name="validate" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PhoneNumberView">
+        <attr name="phoneNumberEnabled" format="boolean" />
+        <attr name="phoneNumber" format="string" />
+        <attr name="phoneNumberCountry" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PhoneNumberInputView">
+        <attr name="pniv_phoneNumberEnabled" format="boolean" />
+        <attr name="pniv_phoneNumber" format="string" />
+        <attr name="pniv_phoneNumberCountry" format="reference" />
+    </declare-styleable>
+
+    <!-- From: file:/C:/Users/Andreas/workspace/PagerSlidingTabStrip/library/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsDividerWidth" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsPaddingMiddle" format="boolean" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsTabTextSize" format="dimension" />
+        <attr name="pstsTabTextColor" format="reference" />
+        <attr name="pstsTabTextStyle" format="reference">
+            <flag name="normal" value="0x0" />
+            <flag name="bold" value="0x1" />
+            <flag name="italic" value="0x2" />
+        </attr>
+        <attr name="pstsTabTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextAlpha" format="integer" />
+        <attr name="pstsTabTextFontFamily" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="VectorDrawableTextView">
+        <attr name="drawableStartCompat" format="reference" />
+        <attr name="drawableEndCompat" format="reference" />
+        <attr name="drawableTopCompat" format="reference" />
+        <attr name="drawableBottomCompat" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MaskedTextInputEditText">
+        <attr name="mask" format="string"/>
+        <attr name="notMaskedSymbol" format="string"/>
+        <attr name="replacementChar" format="string"/>
+        <attr name="deleteChar" format="string"/>
+        <attr name="format" format="string"/>
+        <attr name="maskIcon" format="reference"/>
+        <attr name="maskIconColor" format="reference"/>
+        <attr name="android:inputType"/>
+    </declare-styleable>
+
+</resources>

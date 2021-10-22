@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="no_dimen">0dp</dimen>
+
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_half">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_x_small">4dp</dimen>
+
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_half">8dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_x_small">4dp</dimen>
+
+    <dimen name="small_10dp">10dp</dimen>
+
+    <dimen name="medium_40dp">40dp</dimen>
+    <dimen name="medium_60dp">60dp</dimen>
+    <dimen name="big_100dp">100dp</dimen>
+    <dimen name="big_150dp">150dp</dimen>
+    <dimen name="big_200dp">200dp</dimen>
+</resources>
