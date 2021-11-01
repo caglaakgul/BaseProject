@@ -9,6 +9,7 @@
         <entry key="app/src/main/res/drawable/bg_black_fillrounded_stroke.xml" value="0.2064814814814815" />
         <entry key="app/src/main/res/drawable/bg_black_rounded_stroke.xml" value="0.21296296296296297" />
         <entry key="app/src/main/res/drawable/bg_black_stroke.xml" value="0.21296296296296297" />
+        <entry key="app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.25" />
         <entry key="app/src/main/res/drawable/bg_gray_fill_rounded_stroke.xml" value="0.21296296296296297" />
         <entry key="app/src/main/res/drawable/bg_gray_rounded_stroke.xml" value="0.2064814814814815" />
         <entry key="app/src/main/res/drawable/bg_gray_stroke.xml" value="0.2064814814814815" />
@@ -19,6 +20,7 @@
         <entry key="app/src/main/res/drawable/customize_progress_bar.xml" value="0.22314814814814815" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.22314814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/dialog_bottom_sheet.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.17708333333333334" />
         <entry key="app/src/main/res/layout/fragment_web_view.xml" value="0.1765625" />
         <entry key="app/src/main/res/layout/fragment_webview.xml" value="0.21920289855072464" />

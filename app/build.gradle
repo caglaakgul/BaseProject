@@ -64,8 +64,8 @@ android {
 def lifeCycleExtensionVersion = '1.1.1'
 def supportVersion = '28.0.0'
 def retrofitVersion = '2.9.0'
-def glideVersion = '4.9.0'
-def rxJavaVersion = '2.1.1'
+def glideVersion = '4.12.0'
+def rxJavaVersion = '3.1.2'
 def roomVersion = '2.3.0'
 def navVersion = '2.3.5'
 def preferencesVersion = '1.1.1'
@@ -104,8 +104,8 @@ dependencies {
     implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
 
     //RxJava
-    implementation "io.reactivex.rxjava2:rxjava:$rxJavaVersion"
-    implementation "io.reactivex.rxjava2:rxandroid:$rxJavaVersion"
+    implementation "io.reactivex.rxjava3:rxjava:$rxJavaVersion"
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0"
 
     //Support
