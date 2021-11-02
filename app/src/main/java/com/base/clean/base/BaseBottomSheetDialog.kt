@@ -6,7 +6,6 @@ import android.content.DialogInterface
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.ViewModelProviders
 import com.base.clean.R
 import com.base.clean.util.BottomSheetDialogUtil
 import com.google.android.material.bottomsheet.BottomSheetBehavior
