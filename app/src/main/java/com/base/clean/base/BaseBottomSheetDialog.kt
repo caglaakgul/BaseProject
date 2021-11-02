@@ -23,7 +23,7 @@ open class BaseBottomSheetDialog : BottomSheetDialogFragment() {
     var dismissListener: DialogInterface.OnDismissListener? = null
 
     fun <T : ViewModel> viewModelOf(c: Class<T>): T {
-        return ViewModelProviders.of(this, viewModelFactory).get(c)
+        return ViewModelProvider(this, viewModelFactory).get(c)
     }
 
     override fun onAttach(context: Context) {
@@ -37,17 +37,13 @@ open class BaseBottomSheetDialog : BottomSheetDialogFragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         var tag = this.javaClass.canonicalName?:""
-        if(tag.contains("com.mobilatolye.android.enuygun.")){
-            tag= tag.replace("com.mobilatolye.android.enuygun.","")
-        }
+
         super.onCreate(savedInstanceState)
     }
 
     override fun onResume() {
         var  tag = this.javaClass.canonicalName?:""
-        if(tag.contains("com.mobilatolye.android.enuygun.")){
-            tag = tag.replace("com.mobilatolye.android.enuygun.","")
-        }
+
         super.onResume()
     }
 
